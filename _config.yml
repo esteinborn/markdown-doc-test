@@ -1,45 +1,49 @@
 highlighter: pygments
-github: {
-    "versions": {
-        "jekyll": "1.5.1",
-        "kramdown": "1.3.1",
-        "liquid": "2.5.5",
-        "maruku": "0.7.0",
-        "rdiscount": "2.1.7",
-        "redcarpet": "2.3.0",
-        "RedCloth": "4.2.9",
-        "jemoji": "0.1.0",
-        "jekyll-mentions": "0.0.6",
-        "jekyll-redirect-from": "0.3.1",
-        "jekyll-sitemap": "0.2.0",
-        "github-pages": "18",
-        "ruby": "2.1.1"
-    },
-    "hostname": "github.com",
-    "pages_hostname": "github.io",
-    "api_url": "https://api.github.com",
-    "environment": "dotcom",
-    // "public_repositories": [ Repository Objects ],
-    // "organization_members": [ User Objects ],
-    "build_revision": "cbd866ebf142088896cbe71422b949de7f864bce",
-    "project_title": "Craig's Markdown Test",
-    "project_tagline": "This is my tag line",
-    "owner_name": "patik",
-    "owner_url": "https://github.com/patik",
-    "owner_gravatar_url": "https://github.com/patik.png",
-    "repository_url": "https://github.com/patik/markdown-doc-test",
-    "repository_nwo": "patik/markdown-doc-test",
-    "repository_name": "markdown-doc-test",
-    "zip_url": "https://github.com/patik/markdown-doc-test/zipball/gh-pages",
-    "tar_url": "https://github.com/patik/markdown-doc-test/tarball/gh-pages",
-    "clone_url": "https://github.com/patik/markdown-doc-test.git",
-    "releases_url": "https://github.com/patik/markdown-doc-test/releases",
-    "issues_url": "https://github.com/patik/markdown-doc-test/issues",
-    "wiki_url": "https://github.com/patik/markdown-doc-test/wiki",
-    "language": null,
-    "is_user_page": false,
-    "is_project_page": true,
-    "show_downloads": true,
-    "url": "http://username.github.io/metadata-example", // (or the CNAME)
-    // "contributors": [ User Objects ]
-}
+markdown: redcarpet
+# pygments: false
+highlighter: pygments 
+
+# github: {
+#     "versions": {
+#         "jekyll": "1.5.1",
+#         "kramdown": "1.3.1",
+#         "liquid": "2.5.5",
+#         "maruku": "0.7.0",
+#         "rdiscount": "2.1.7",
+#         "redcarpet": "2.3.0",
+#         "RedCloth": "4.2.9",
+#         "jemoji": "0.1.0",
+#         "jekyll-mentions": "0.0.6",
+#         "jekyll-redirect-from": "0.3.1",
+#         "jekyll-sitemap": "0.2.0",
+#         "github-pages": "18",
+#         "ruby": "2.1.1"
+#     },
+#     "hostname": "github.com",
+#     "pages_hostname": "github.io",
+#     "api_url": "https://api.github.com",
+#     "environment": "dotcom",
+#     # "public_repositories": [ Repository Objects ],
+#     # "organization_members": [ User Objects ],
+#     "build_revision": "cbd866ebf142088896cbe71422b949de7f864bce",
+#     "project_title": "Craig's Markdown Test",
+#     "project_tagline": "This is my tag line",
+#     "owner_name": "patik",
+#     "owner_url": "https://github.com/patik",
+#     "owner_gravatar_url": "https://github.com/patik.png",
+#     "repository_url": "https://github.com/patik/markdown-doc-test",
+#     "repository_nwo": "patik/markdown-doc-test",
+#     "repository_name": "markdown-doc-test",
+#     "zip_url": "https://github.com/patik/markdown-doc-test/zipball/gh-pages",
+#     "tar_url": "https://github.com/patik/markdown-doc-test/tarball/gh-pages",
+#     "clone_url": "https://github.com/patik/markdown-doc-test.git",
+#     "releases_url": "https://github.com/patik/markdown-doc-test/releases",
+#     "issues_url": "https://github.com/patik/markdown-doc-test/issues",
+#     "wiki_url": "https://github.com/patik/markdown-doc-test/wiki",
+#     "language": null,
+#     "is_user_page": false,
+#     "is_project_page": true,
+#     "show_downloads": true,
+#     "url": "http://username.github.io/metadata-example", // (or the CNAME)
+#     # "contributors": [ User Objects ]
+# }
